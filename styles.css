@@ -80,3 +80,24 @@ body{
 font-size: 28px;
 margin-top: -6px;
 }
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+@media( max-width:700px){
+    .details{
+    gap: 16px;
+    }
+    .card{
+        /* width: 200px; */
+        font-size: 12px;
+        text-align: center;
+}
+    }
+
